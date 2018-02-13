@@ -5,6 +5,7 @@
   <!-- This is a comment -->
   <title>MY BIO PAGE</title>
   <link rel="stylesheet" href="./css/index.css" />
+  <script type="text/javascript" src="./js/login.js"></script>
 </head>
 
 <body>
@@ -21,8 +22,8 @@
           <h3>Login</h3>
           <input class="login-input" type="text" id="username" />
           <input class="login-input" type="text" id="password" />
-          <span id="error"></span>
-          <button id="login" class="btn-login">Login</button>
+          <span class="error box-shadow" id="error"></span>
+          <button onclick="login()" id="login" class="btn-login">Login</button>
         </div>
       </div>
     </div>

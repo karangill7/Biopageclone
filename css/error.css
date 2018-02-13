@@ -1,0 +1,21 @@
+body, html {
+  width:100%;
+  background-color:#cb4c28;
+}
+
+.error-container {
+  margin:250px auto;
+}
+.error-container > h1 {
+  color:#fff;
+  font-weight:bold;
+  text-align: center;
+}
+
+.err-icon-container {
+  text-align:center;
+}
+
+.err-icon-container > img{
+  width:150px;
+}

@@ -13,7 +13,7 @@
 
   .main-header,
   .main-footer {
-    background-color: #ccc;
+    background-color: #cb4c28;
     height: 50px;
   }
 
@@ -154,10 +154,9 @@
   }
 
   .login-container {
- 
     padding:20px;
     width: 450px;
-    height: 450px;
+    height: 495px;
     background-color: #cb4d28;
     position: absolute;
     left: 0;
@@ -188,4 +187,14 @@
 
   .login-logo>img {
     width: 100%;
+  }
+
+  .error {
+    display: none;
+    color: #FFF;
+    font-weight: bold;
+    background-color:#ebd900;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    border-radius: 6px;
   }
