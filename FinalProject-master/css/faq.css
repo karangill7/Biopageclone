@@ -1,0 +1,16 @@
+.content-container {
+    position: relative;
+    border-style: double;
+    border-width: 10px;
+    border-color: rgba(0, 0, 0, 0.5);
+    margin: 70px auto;
+    height: 1500px;
+    width: 80%;
+    top: 70px;
+    padding: 50px;
+}
+
+.content {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+}

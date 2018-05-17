@@ -1,0 +1,36 @@
+.video-container {
+    width: 640px;
+    margin: 0 auto;
+    height: 400px;
+    position: relative;
+    top: 50px;
+}
+
+.gallery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 80px;
+}
+
+.title {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 42px;
+    position: relative;
+    top: 70px;
+}
+
+.image {
+    width: 400px;
+    height: 450px;
+}
+
+.image2 {
+    width: 400px;
+}
+
+.fit {
+    position: relative;
+    bottom: 15px;
+}

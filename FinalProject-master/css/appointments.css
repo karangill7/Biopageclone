@@ -1,0 +1,41 @@
+.content-container {
+    position: relative;
+    border-style: double;
+    border-width: 10px;
+    border-color: rgba(0, 0, 0, 0.5);
+    margin: 70px auto;
+    height: 800px;
+    width: 80%;
+    top: 70px;
+    padding: 50px;
+    background-image: url(..images/white.jpeg);
+}
+
+.box1 {
+    position: absolute;
+    top: 70px;
+    height: 405px;
+    width: 33%;
+}
+
+.box2 {
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 50%;
+    height: 405px;
+}
+
+.box3 {
+    position: absolute;
+    width: 45%;
+    bottom: 30px;
+    left: 300px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+}
